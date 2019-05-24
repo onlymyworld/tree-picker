@@ -1,5 +1,4 @@
 # tree-picker
-<<<<<<< HEAD
 
 > tree-picker is sample Three-level linkage selection, you can use it to choose area, department,or personnel,
 
@@ -224,6 +223,3 @@ show | 打开选择面板时触发 | value
 
 
 
-=======
-tree-picker
->>>>>>> 695a5351bd1a2b6c6729f905e8a94ac0c36dbbd8
