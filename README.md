@@ -1,2 +1,0 @@
-# tree-picker
-tree-picker
