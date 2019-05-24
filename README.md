@@ -14,11 +14,15 @@ npm i tree-picker
 
 ```
 <template>
-    <tree-picker @onchange="getChoosed"/>
+    <treePicker @onchange="getChoosed"/>
 </template>
 
 <script>
+import treePicker from 'tree-picker';
 export default {
+	components: {
+		treePicker,
+	},
 	data() {
 		return {};
 	},
@@ -57,7 +61,7 @@ export default {
                 console.log('显示');
             },
         },
-        components: { 'tree-picker': areaPicker },
+        components: { 'tree-picker': treePicker },
     };
 ```
 
@@ -79,7 +83,11 @@ export default {
 </template>
 
 <script>
+import treePicker from 'tree-picker';
 export default {
+	components: {
+		treePicker,
+	},
 	data() {
 		return {};
 	},
@@ -109,7 +117,11 @@ export default {
 </template>
 
 <script>
+import treePicker from 'tree-picker';
 export default {
+	components: {
+		treePicker,
+	},
 	data() {
 		return {};
 	},
@@ -144,7 +156,11 @@ export default {
 </template>
 
 <script>
+import treePicker from 'tree-picker';
 export default {
+	components: {
+		treePicker,
+	},
 	data() {
 	    //可参照form-item设置自定义验证规则
 		return {
